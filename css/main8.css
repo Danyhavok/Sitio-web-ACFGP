@@ -1,0 +1,402 @@
+@font-face{
+  font-family: Francois;
+  src: url("../FrancoisOne-Regular/FrancoisOne-Regular.ttf");
+}
+@font-face{
+  
+  font-family: Montserratbold;
+  src: url("../Montserratbold/Montserrat-Bold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratsemibold;
+  src: url("../Montserratsemibold/Montserrat-SemiBold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratmedium;
+  src: url("../Montserratmedium/Montserrat-Medium.ttf");
+}
+/*-------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v1_2 {
+    /*/////////////////////////////DIV INICIO//////////////////////////////////////////////*/
+    width: 1920px; height: 3760px; background: rgb(255, 255, 255); opacity: 1;
+    position: relative; top: 0px; left: 0px; overflow: hidden;
+  }
+  .v20_29 {
+    /*inicio*/
+    width: 1877px; height: 170px; background: linear-gradient(180deg, #097A59 0%, #0B9A70 100%); background-size: cover;
+    opacity: 1; position: absolute; top: 33px; left: 32px; border: 0px solid rgba(0,0,0,1); overflow: hidden;
+  }
+/*/////////////////////////////////////////////DIV SEGUND0/////////////////////////////////////////////*/
+  .v20_9 {
+    width: 100%; height: 827px; opacity: 1; position: absolute; top: 202px; left: 32px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden; background-size: cover; background-position: center;
+  } 
+  .v20_9_1 {
+    background: linear-gradient(180deg, #097A59 0%, #0B9A70 100%); width: 100%; height: 187px;
+    opacity: 1; position: absolute; top: 1030px; left: 32px; border: 0px solid rgba(0,0,0,1);
+    overflow: hidden; background-size: cover; background-position: center;
+  } 
+  .v20_9_2{
+    width: 100%; height: 1112px; opacity: 1; position: absolute; top: 1216px; left: 32px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden; background-size: cover; background-position: center;
+    background-image: url("../images/morenosfot1.jpg"); filter:contrast(0.3) opacity(0.6);
+  }
+   /*/////////////////////////////////DIV FINAL/////////////////////////////////////////////*/
+   .v20_9_3 {
+    background: linear-gradient(180deg, #097A59 0%, #0B956C 100%); width: 100%; height: 836px;
+    opacity: 1; position: absolute; top: 2328px; left: 32px; border: 0px solid rgba(0,0,0,1);
+    overflow: hidden; background-size: cover; background-position: center;
+  } 
+
+  .v20_9_4 {
+    width: 100%;
+    height: 198px;
+    background: linear-gradient(180deg, #DCDCDC 0%, #FFFFFF 100%);
+    opacity: 1;
+    position: absolute;
+    top: 3163px;
+    left: 22px;
+    overflow: hidden;
+  }
+  .v20_9_5{
+    width: 180px;               height: 44px;
+    color: #097A59;           position: absolute;
+    top: 1630px;                left: 395px;
+    font-family: Montserratbold;    font-weight: 700;
+    font-size: 36px;            opacity: 1;
+    text-align: left;
+  }
+  .v20_9_6{
+    width: 180px;               height: 44px;
+    color: #097A59;           position: absolute;
+    top: 1630px;                left: 1348px;
+    font-family: Montserratbold;    font-weight: 700;
+    font-size: 36px;            opacity: 1;
+    text-align: left;
+  }
+  .v20_9_7{
+    width: 430px;               height: 44px;
+    color: #097A59;           position: absolute;
+    top: 2000px;                left: 750px;
+    font-family: Montserratbold;    font-weight: 700;
+    font-size: 36px;            opacity: 1;
+    text-align: left;
+  }
+  .v20_9_8{
+    width: 456px;               height: 27px;
+    color: #097A59;           position: absolute;
+    top: 1670px;                left: 264px;
+    font-family: Montserratmedium;    font-weight: 500;
+    font-size: 36px;            opacity: 1;
+    text-align: left;
+  }
+  .v20_9_9{
+    width: 456px;               height: 27px;
+    color: #097A59;           position: absolute;
+    top: 1670px;                left: 1300px;
+    font-family: Montserratmedium;    font-weight: 500;
+    font-size: 46px;            opacity: 1;
+    text-align: left;
+  }
+  .v20_9_10{
+    width: 629px;               height: 27px;
+    color: #097A59;           position: absolute;
+    top: 2050px;                left: 640px;
+    font-family: Montserratmedium;    font-weight: 500;
+    font-size: 36px;            opacity: 1;
+    text-align: left;
+  }
+  .v20_9_11{
+    width: 1015px;              height: 70px;
+    color:#FFFFFF;            position: absolute;
+    top: 2370px;                left: 480px;
+    font-family: Montserratbold;    font-weight: 700;
+    font-size: 80px;            opacity: 1;
+    text-align: center;
+  }
+  .v20_9_12{
+    width: 456px;              height: 27px;
+    color:#FFFFFF;            position: absolute;
+    top: 2880px;                left: 230px;
+    font-family: Montserratmedium;    font-weight: 500;
+    font-size: 27px;            opacity: 1;
+    text-align: center;
+  }
+  .v20_9_13{
+    width: 456px;              height: 27px;
+    color:#FFFFFF;            position: absolute;
+    top: 2880px;                left: 690px;
+    font-family: Montserratmedium;    font-weight: 500;
+    font-size: 27px;            opacity: 1;
+    text-align: center;
+  }
+  .v20_9_14{
+    width: 444px;              height: 27px;
+    color:#FFFFFF;            position: absolute;
+    top: 2880px;                left: 1190px;
+    font-family: Montserratmedium;    font-weight: 500;
+    font-size: 27px;            opacity: 1;
+    text-align: center;
+  }
+  .v20_9_15{
+    width: 670px;              height: 67px;
+    color: #097C5A;           position: absolute;
+    top: 3240px;                left: 600px;
+    font-family: Montserratsemibold;    font-weight: 600;
+    font-size: 40px;            opacity: 1;
+    text-align: center;         font-style: italic;
+  }
+
+
+
+  /*////////////////////////////////////////////*/
+  .iconmaps{
+    width: 330px; height: 330px; opacity: 1; position: absolute; top: 1300px; left: 300px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden; background-size: cover; background-position: center;
+    background-image: url("../images/iconcorreo.png");
+  }
+  
+  .icontel{
+    width: 330px; height: 330px; opacity: 1; position: absolute; top: 1300px; left: 1250px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden; background-size: cover; background-position: center;
+    background-image: url("../images/icontel.png");
+  }
+  .iconcorreo{
+    width: 330px; height: 330px; opacity: 1; position: absolute; top: 1700px; left: 750px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden; background-size: cover; background-position: center;
+    background-image: url("../images/iconmaps.png");
+  }
+  /*////////////////////////////////////////////*/
+  .icongfb{
+    width: 330px; height: 330px; opacity: 1; position: absolute; top: 2550px; left: 300px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden; background-size: cover; background-position: center;
+    background-image: url("../images/icongfb.png");
+  }
+  
+  .icongx{
+    width: 330px; height: 330px; opacity: 1; position: absolute; top: 2550px; left: 1250px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden; background-size: cover; background-position: center;
+    background-image: url("../images/icons8-whatsapp-48.png");
+  }
+  .icongw{
+    width: 330px; height: 330px; opacity: 1; position: absolute; top: 2550px; left: 750px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden; background-size: cover; background-position: center;
+    background-image: url("../images/icongx.png");
+  }
+
+
+   
+  /*/////////////////////////////////DIV FINAL/////////////////////////////////////////////*/
+  .v7_82 {
+    /*caja grande 6*/
+    width: 100%;
+    height: 398px;
+    background: rgba(9,82,55,1);
+    opacity: 1;
+    position: absolute;
+    top: 3360px;
+    left: 22px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v7_100 {
+    /*caja grande 6letra corre*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3524px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_101 {
+    /*ciudad*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3582px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_102 {
+    /*numero*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3622px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_86 {
+    /*encuntranos*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3454px;
+    left: 1290px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_92 {
+    /*historia*/
+    width: 89px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3478px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_93 {
+    /*terminis y cond*/
+    width: 276px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3526px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_94 {
+    /*politica de privacidad*/
+    width: 255px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3573px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_88 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/icx.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3504px;
+    left: 1310px;
+  }
+  .v7_89 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/icf.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 3504px;
+    left: 1360px;
+  }
+  .v7_90 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/ici.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 3504px;
+    left: 1400px;
+  }
+  
+  .v7_84 {
+    /*caja grande 6iconotata*/
+    width: 137px;
+    height: 135px;
+    background: url("../images/v7_84.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3364px;
+    left: 210px;
+    overflow: hidden;
+  }
+  /*/////////////////////////////////DIV HEADER/////////////////////////////////////////////////////////*/
+  .v20_29 .v7_84_1{
+    width: 144px;
+    height: 143px;
+    background: url("../images/v7_84.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    overflow: hidden;
+  }
+  header {
+    position: absolute; 
+    top: 70px; 
+    left: 500px; 
+    padding: 1em;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav li {
+    margin-right: 120px;
+  }
+  nav a {
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32.91px;
+  }
+  nav a:hover {
+    color:#095237;
+  }
+   /*//////////////////////////////////////////////////////////////////////////////////////*/
+   
+.val_1{
+    width: 1197px;height: 27px; color:#FFFFFF; position: absolute; top: 1070px;
+    left: 270px; font-family: Montserrat; font-weight: 500; font-size: 36px; opacity: 1;
+    text-align: justified;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////*/

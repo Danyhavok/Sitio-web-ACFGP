@@ -1,0 +1,599 @@
+@font-face{
+  font-family: Francois;
+  src: url("../FrancoisOne-Regular/FrancoisOne-Regular.ttf");
+}
+@font-face{
+  
+  font-family: Montserratbold;
+  src: url("../Montserratbold/Montserrat-Bold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratsemibold;
+  src: url("../Montserratsemibold/Montserrat-SemiBold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratmedium;
+  src: url("../Montserratmedium/Montserrat-Medium.ttf");
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+* {box-sizing: border-box;}
+body {font-size: 14px;}
+.v1_2 {
+  /*div mayor*/
+  width: 1920px;    height: 4094px;
+  position: relative;   top: 0px;   left: 0px;
+  overflow: hidden;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.v20_29 {
+  /*inicio*/
+  width: 1877px;   height: 823px;
+  background-image: url(../images/fondohome.jpeg);   background-size: cover; 
+  filter: brightness(0.6);    opacity: 1;
+  position: absolute;   top: 33px;    left: 32px;
+  border: 0px solid rgba(0,0,0,1);    overflow: hidden;
+}
+.pul{
+  width: 953px;
+  height: 249px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 485px;
+  left: 300px;
+  font-family: Francois;
+  font-weight: Regular;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+header {
+  position: absolute; 
+  top: 111px; 
+  left: 533px; 
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 120px;
+}
+
+nav a {
+  color: #ffffff; 
+  font-family: Montserratsemibold;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 32.91px;
+}
+
+nav a:hover {
+  color:  #1BDEA5;
+
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.v20_9 {
+  /*burguesa*/
+  width: 100%;
+  height: 522px;
+  background: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 9.5%);
+  opacity: 1;
+  position: absolute;
+  top: 815px;
+  left: 32px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  
+}
+.v20_12 {
+  /*burguesa img*/
+  width: 454px;
+  height: 394px;
+  background: url("../images/v20_12.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 880px;
+  left: 1283px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+
+.v20_11 {
+  /*caja grande 2 letras*/
+  width: 750px;
+  height: 396px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 934px;
+  left: 376px;
+  font-family: Montserratmedium;
+  border: 1px solid #000000;
+  font-size: 33px;
+  opacity: 1;
+  text-align: justified;
+}
+/*------------------------------------------------------------------------------*/
+
+.v20_5 {
+  /*Nuestras reynas del gran poder*/
+  width: 100%;
+  height: 880px;
+  background-image: url("../images/reynasgranpoder.jpeg");
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
+  position: absolute;
+  top: 1337px;
+  left: 32px;
+  border: 0px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.name {
+  color: #fff;
+}
+.v20_7 {
+  /*caja grande 3*/
+  width: 953px;
+  height: 249px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 1725px;
+  left: 126px;
+  font-family: Francois;
+  font-weight: 400;
+  font-size: 88px;
+  opacity: 1;
+  text-align: left;
+  
+}
+
+/*/////////////////////////////////////////////////////////*/
+.v6_46 {
+  /*caja grande4*/
+  width: 100%;
+  height: 751px;
+  background: rgba(18,149,111,1);
+  opacity: 1;
+  position: absolute;
+  top: 2192px;
+  left: 32px;
+  border: 0px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v6_44 {
+  /*caja verde1*/
+  width: 343px;
+  height: 492px;
+  background: rgba(9,82,55,1);
+  opacity: 1;
+  position: absolute;
+  top: 2389px;
+  left: 1220px;
+  border-top-left-radius: 51px;
+  border-top-right-radius: 52px;
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+  overflow: hidden;
+}
+.v6_58 {
+  /*caja verde 1 letras*/
+  width: 329px;
+  height: 288px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2545px;
+  left: 352px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 26px;
+  opacity: 1;
+  text-align: center;
+}
+.v6_52 {
+  /*img de caja verde 1*/
+  width: 231px;
+  height: 231px;
+  background: url("../images/v6_52.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  position: absolute;
+  top: 2298px;
+  left: 410px;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,1);
+  
+}
+.v6_48 {
+  /*caja verder 2*/
+  width: 343px;
+  height: 492px;
+  background: rgba(9,82,55,1);
+  opacity: 1;
+  position: absolute;
+  top: 2385px;
+  left: 788px;
+  border-top-left-radius: 51px;
+  border-top-right-radius: 52px;
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+  overflow: hidden;
+}
+.v6_60 {
+  /*caja verde 2 letras*/
+  width: 329px;
+  height: 288px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2538px;
+  left: 799px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 26px;
+  opacity: 1;
+  text-align: center;
+}
+.v6_56 {
+  /*img de caja verde 2*/
+ width: 232px;
+ height: 232px;
+ background: url("../images/v6_54.png");
+ background-size: cover;
+ background-position: center;
+ opacity: 1;
+ position: absolute;
+ top: 2281px;
+ left: 850px;
+ border-radius: 50%;
+ border: 5px solid rgba(255,255,255,1);
+}
+.v6_50 {
+  /*caja verde 3*/
+  width: 346px;
+  height: 492px;
+  background: rgba(9,82,55,1);
+  opacity: 1;
+  position: absolute;
+  top: 2385px;
+  left: 350px;
+  border-top-left-radius: 51px;
+  border-top-right-radius: 52px;
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+  overflow: hidden;
+}
+.v6_64 {
+  /*caja verde 3 letras*/
+  width: 329px;
+  height: 288px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2514px;
+  left: 1227px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 26px;
+  opacity: 1;
+  text-align: center;
+}
+.v6_54 {
+  /*img de caja verde 3*/
+  width: 231px;
+  height: 231px;
+  background: url("../images/v6_56.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  position: absolute;
+  top: 2282px;
+  left: 1278px;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,1);
+}
+
+.v6_66 {
+  /*Noticias y actu*/
+  width: 931px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2217px;
+  left: 574px;
+  font-family: Montserratbold;
+  font-weight: Bold;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+
+/*/////////////////////////////////////////////////////////*/
+
+
+.v7_68 {
+  /*caja grande 5*/
+  width: 100%;
+  height: 712px;
+  background: linear-gradient(rgba(206,206,206,1), rgba(209,209,209,1));
+  opacity: 1;
+  position: absolute;
+  top: 2934px;
+  left: 32px;
+  border: 0px solid linear-gradient(rgba(0,0,0,1), rgba(102,102,102,1));
+  overflow: hidden;
+}
+.v7_78 {
+  /*icono caja 5*/
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/fliz.png");
+  opacity: 1;
+  position: absolute;
+  top: 3247px;
+  left: 240px;
+  
+}
+.v7_80 {
+  /*icono caja 5*/
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/flde.png");
+  opacity: 1;
+  position: absolute;
+  top: 3247px;
+  left: 1610px;
+  
+}
+.v7_70 {
+  /*caja grandde 5 letras*/
+  width: 100%;
+  height: 109px;
+  color: rgba(9,82,55,1);
+  position: absolute;
+  top: 2958px;
+  left: 513px;
+  font-family: Montserratbold;
+  font-weight: 700;
+  font-size: 66px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_72 {
+  /*img caja 5 izq*/
+  width: 345px;
+  height: 318px;
+  background: url("../images/v7_72.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3142px;
+  left: 359px;
+  border: 1px solid rgba(0,0,0,1);
+  box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+  overflow: hidden;
+}
+.v7_76 {
+  /*img caja 5 derecha*/
+  width: 345px;
+  height: 318px;
+  background: url("../images/v7_76.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3142px;
+  left: 1220px;
+  box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+  overflow: hidden;
+}
+.v7_74 {
+  /*img caja grande*/
+  width: 465px;
+  height: 407px;
+  background: url("../images/v7_74.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3080px;
+  left: 730px;
+  box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+  overflow: hidden;
+}
+
+/*/////////////////////////////////////////////////////////*/
+.v7_82 {
+  /*caja grande 6*/
+  width: 100%;
+  height: 368px;
+  background: rgba(9,82,55,1);
+  opacity: 1;
+  position: absolute;
+  top: 3607px;
+  left: 22px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v7_100 {
+  /*caja grande 6letra corre*/
+  width: 204px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3770px;
+  left: 195px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_101 {
+  /*ciudad*/
+  width: 204px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3830px;
+  left: 195px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_102 {
+  /*numero*/
+  width: 204px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3870px;
+  left: 195px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_86 {
+  /*encuntranos*/
+  width: 204px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3700px;
+  left: 1290px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_92 {
+  /*historia*/
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3724px;
+  left: 740px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_93 {
+  /*terminis y cond*/
+  width: 276px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3772px;
+  left: 740px;
+  font-family: Montserratmedium;
+  font-weight: 500;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_94 {
+  /*politica de privacidad*/
+  width: 255px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3819px;
+  left: 740px;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v7_88 {
+  /*caja grande 6icono*/
+  width: 41px;
+  height: 41px;
+  background-image: url("../images/icx.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3763px;
+  left: 1310px;
+}
+.v7_89 {
+  /*caja grande 6icono*/
+  width: 41px;
+  height: 41px;
+  background-image: url("../images/icf.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  position: absolute;
+  top: 3763px;
+  left: 1360px;
+}
+.v7_90 {
+  /*caja grande 6icono*/
+  width: 41px;
+  height: 41px;
+  background-image: url("../images/ici.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  position: absolute;
+  top: 3763px;
+  left: 1400px;
+}
+
+.v7_84 {
+  /*caja grande 6iconotata*/
+  width: 137px;
+  height: 135px;
+  background: url("../images/v7_84.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3610px;
+  left: 210px;
+  overflow: hidden;
+}
+/*/////////////////////////////////////////////////////////*/
+.v7_84_1{
+  width: 144px;
+  height: 143px;
+  background: url("../images/v7_84.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 170px;
+  overflow: hidden;
+
+}
+/*/////////////////////////////////////////////////////////*/
+
+
+
+

@@ -1,0 +1,478 @@
+@font-face{
+  font-family: Francois;
+  src: url("../FrancoisOne-Regular/FrancoisOne-Regular.ttf");
+}
+@font-face{
+  
+  font-family: Montserratbold;
+  src: url("../Montserratbold/Montserrat-Bold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratsemibold;
+  src: url("../Montserratsemibold/Montserrat-SemiBold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratmedium;
+  src: url("../Montserratmedium/Montserrat-Medium.ttf");
+}
+/*-------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v20_29 {
+    /*inicio*/
+    width: 1877px; height: 738px; background: linear-gradient(180deg, #DCDCDC 0%, #FFFFFF 100%);
+    background-size: cover; opacity: 1; position: absolute; top: 33px; left: 32px;
+    border: 0px solid rgba(0,0,0,1); overflow: hidden;
+  }
+  .v1_2 {
+    /*div mayor*/
+    width: 1920px; height: 4094px; background: rgb(255, 255, 255);
+    opacity: 1; position: relative; top: 0px; left: 0px;
+    overflow: hidden;
+  }
+  .v20_9 {
+    /*burguesa*/
+    width: 100%; height: 629px; opacity: 1;
+    position: absolute; top: 771px; left: 32px; border: 0px solid rgba(0,0,0,1); overflow: hidden;
+    background: linear-gradient(180deg, #097A59 0%, #0C9E74 100%);
+  }
+  .v20_12 {
+    /*caja grande 2 img*/
+    width: 487px; height: 629px; background: url("../images/CAR1.jpg");
+    background-repeat: no-repeat; background-position: center center;
+    background-size: cover; opacity: 1;
+    position: absolute; top: 771px;
+    left: 700px; overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v20_11 {
+    /*caja grande 2 letras*/
+    width: 345px; height: 280px;
+    color: #FFFFFF; position: absolute;
+    top: 980px; left: 199px;
+    font-family: Montserratmedium; font-weight: 500;
+    font-size: 29px; opacity: 1; text-align: center;
+  }
+  .v20_111 {
+    /*caja grande 2 letras*/
+    width: 324px; height: 3650px; color: #FFFFFF;
+    position: absolute; top: 880px; left: 1430px;
+    font-family: Montserratmedium; font-weight: 500;
+    font-size: 29px; opacity: 1; text-align: center;
+  }
+
+  .Vis1{
+    width: 412px; height: 70px;
+    color: rgba(245,245,245,1); position: absolute;
+    top: 966px; left: 550px;
+    font-family: Francois One; font-weight: 700;
+    font-size: 80px; opacity: 1;
+    text-align: left;
+  }
+  /*/////////////////////////////////////////////////////////*/
+  .name {
+    color: #fff;
+  }
+  /*/////////////////////////////////////////////////////////*/
+  .v6_46 {
+    /*caja grande4*/
+    width: 100%;
+    height: 2221px;
+    background: linear-gradient(180deg, #CECECE 0%, #FFFFFF 100%);
+    opacity: 1;
+    position: absolute;
+    top: 1400px;
+    left: 32px;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+  .fratercon{
+    width: 706px;
+    height: 70px;
+    color: #095237;
+    position: absolute;
+    top: 1466px;
+    left: 589px;
+    font-family: Francois One;
+    font-weight: 700;
+    font-size: 80px;
+    opacity: 1;
+    line-height: 97.52px;
+    text-align: center;
+  }
+  .ftc{
+    width: 586px;
+    height: 773px;
+    background: url("../images/carl1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1700px;
+    left: 330px;
+    box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+    overflow: hidden;
+  }
+  .ftc2{
+    width: 586px;
+    height: 773px;
+    background: url("../images/carm1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1700px;
+    left: 950px;
+    box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+    overflow: hidden;
+  }
+  .ftc3{
+    width: 586px;
+    height: 773px;
+    background: url("../images/cart1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2640px;
+    left: 330px;
+    box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+    overflow: hidden;
+  }
+  .ftc4{
+    width: 586px;
+    height: 773px;
+    background: url("../images/cartt1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2640px;
+    left: 950px;
+    box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+    overflow: hidden;
+  }
+
+  
+  /*/////////////////////////////////////////////////////////*/
+  .ftcL{
+    
+    width: 586px;
+    height: 145px;
+    opacity: 1;
+    position: absolute;
+    top: 2470px;
+    left: 330px;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    background: linear-gradient(180deg, #097A59 0%, #0C9E74 100%);
+  }
+  .ftc2L{
+    width: 586px;
+    height: 145px;
+    opacity: 1;
+    position: absolute;
+    top: 2470px;
+    left: 950px;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    background: linear-gradient(180deg, #097A59 0%, #0C9E74 100%);
+  }
+  .ftc3L{
+    width: 586px;
+    height: 145px;
+    opacity: 1;
+    position: absolute;
+    top: 3400px;
+    left: 330px;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    background: linear-gradient(180deg, #097A59 0%, #0C9E74 100%);
+  }
+  .ftc4L{
+    width: 586px;
+    height: 145px;
+    opacity: 1;
+    position: absolute;
+    top: 3400px;
+    left: 950px;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    background: linear-gradient(180deg, #097A59 0%, #0C9E74 100%);
+  }
+  
+  
+  
+  /*/////////////////////////////////////////////////////////*/
+  
+  .name {
+    color: #fff;
+  }
+  /*/////////////////////////////////////////////////////////*/
+    
+  .v7_82 {
+    /*caja grande 6*/
+    width: 100%;
+    height: 368px;
+    background: rgba(9,82,55,1);
+    opacity: 1;
+    position: absolute;
+    top: 3607px;
+    left: 22px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v7_100 {
+    /*caja grande 6letra corre*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3770px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_101 {
+    /*ciudad*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3830px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_102 {
+    /*numero*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3870px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_86 {
+    /*encuntranos*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3700px;
+    left: 1290px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_92 {
+    /*historia*/
+    width: 89px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3724px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_93 {
+    /*terminis y cond*/
+    width: 276px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3772px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_94 {
+    /*politica de privacidad*/
+    width: 255px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3819px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_88 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/icx.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3763px;
+    left: 1310px;
+  }
+  .v7_89 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/icf.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 3763px;
+    left: 1360px;
+  }
+  .v7_90 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/ici.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 3763px;
+    left: 1400px;
+  }
+  
+  .v7_84 {
+    /*caja grande 6iconotata*/
+    width: 137px;
+    height: 135px;
+    background: url("../images/v7_84.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3610px;
+    left: 210px;
+    overflow: hidden;
+  }
+  
+  /*/////////////////////////////////////////////////////////*/
+  .v20_29 .v7_84_1{
+    width: 144px;
+    height: 143px;
+    background: url("../images/v7_84.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    overflow: hidden;
+  
+  }
+  /*/////////////////////////////////////////////////////////*/
+  header {
+    
+    position: absolute; 
+    top: 70px; 
+    left: 500px; 
+    
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 120px;
+  }
+  
+  nav a {
+    color: #095237;
+    font-family: Montserratsemibold;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32.91px;
+  }
+  
+  nav a:hover {
+    color:#16BC8C;
+
+    ; 
+  }
+   /*/////////////////////////////////////////////////////////*/
+.letrasV_2{
+    width: 1181px;
+    height: 70px;
+    color: #095237;
+    position: absolute;
+    top: 300px;
+    left: 355px;
+    font-family: Montserratbold;
+    font-weight: 700;
+    font-size: 80px;
+    opacity: 1;
+    line-height: 97.52px;
+    text-align: center;
+}
+
+.v20_111_1{
+  width: 567px; height: 106px;
+    color: #FFFFFF; position: absolute;
+    top: 2480px; left: 339px;
+    font-family: Montserratmedium; font-weight: 700;
+    font-size: 24px; opacity: 1; text-align: center;
+}
+.v20_111_2{
+  width: 567px; height: 106px;
+    color: #FFFFFF; position: absolute;
+    top: 2480px; left: 949px;
+    font-family: Montserratmedium; font-weight: 700;
+    font-size: 24px; opacity: 1; text-align: center;
+}
+.v20_111_3{
+  width: 567px; height: 106px;
+    color: #FFFFFF; position: absolute;
+    top: 3419px; left: 339px;
+    font-family: Montserratmedium; font-weight: 700;
+    font-size: 24px; opacity: 1; text-align: center;
+}
+.v20_111_4{
+  width: 567px; height: 106px;
+    color: #FFFFFF; position: absolute;
+    top: 3419px; left: 949px;
+    font-family: Montserratmedium; font-weight: 700;
+    font-size: 24px; opacity: 1; text-align: center;
+}

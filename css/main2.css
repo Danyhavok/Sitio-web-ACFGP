@@ -1,0 +1,494 @@
+@font-face{
+  font-family: Francois;
+  src: url("../FrancoisOne-Regular/FrancoisOne-Regular.ttf");
+}
+@font-face{
+  
+  font-family: Montserratbold;
+  src: url("../Montserratbold/Montserrat-Bold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratsemibold;
+  src: url("../Montserratsemibold/Montserrat-SemiBold.ttf");
+}
+@font-face{
+  
+  font-family: Montserratmedium;
+  src: url("../Montserratmedium/Montserrat-Medium.ttf");
+}
+/*-----------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v20_29 {
+    /*inicio*/
+    width: 1877px;
+    height: 823px;
+    background: rgba(18,149,111,1);
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 33px;
+    left: 32px;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+  .v1_2 {
+    /*div mayor*/
+    width: 1920px;
+    height: 3104px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v20_9 {
+    /*burguesa*/
+    width: 100%;
+    height: 787px;
+    
+    opacity: 1;
+    position: absolute;
+    top: 856px;
+    left: 32px;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+    background: linear-gradient(180deg, #DCDCDC 0%, #FFFFFF 100%);
+
+  }
+  .v20_12 {
+    /*caja grande 2 img*/
+    width: 608px;
+    height: 787px;
+    background: url("../images/fis1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 856px;
+    left: 1283px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v20_11 {
+    /*caja grande 2 letras*/
+    width: 607px;
+    height: 399px;
+    color:#097A59;
+    position: absolute;
+    top: 1090px;
+    left: 376px;
+    font-family: Montserratmedium;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .Vis1{
+    width: 412px;
+    height: 70px;
+    color: #095237;
+
+    position: absolute;
+    top: 966px;
+    left: 550px;
+    font-family: Montserratbold;
+    font-weight: 700;
+    font-size: 80px;
+    
+    opacity: 1;
+    text-align: left;
+  }
+  
+  
+  
+  /*/////////////////////////////////////////////////////////*/
+  
+  
+  
+  .name {
+    color: #fff;
+  }
+  .v20_7 {
+    /*caja grande 3*/
+    width: 402px;
+    height: 70px;
+    color: rgba(245,245,245,1);
+    position: absolute;
+    top: 1715px;
+    left: 786px;
+    font-family: Montserratbold;
+    font-weight: 700;
+    font-size: 80px;
+    opacity: 1;
+    text-align: left;
+  }
+  .val_1{
+    width: 1194px;
+    height: 399px;
+    color: rgba(245,245,245,1);
+    position: absolute;
+    top: 1840px;
+    left: 376px;
+    font-family: Montserratmedium;
+    font-weight: 600;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+  .val_img{
+    width: 473px;
+    height: 418px;
+  background: url("../images/tro1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2270px;
+  left: 32px;
+  box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+  overflow: hidden;
+  }
+  .val_img2{
+    width: 473px;
+    height: 418px;
+    background: url("../images/v7_74.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2270px;
+    left: 505px;
+    box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+    overflow: hidden;
+    }
+    .val_img3{
+      width: 473px;
+    height: 418px;
+      background: url("../images/ch1.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 2270px;
+      left: 978px;
+      box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+      overflow: hidden;
+      }
+      .val_img4{
+        width: 473px;
+        height: 418px;
+        background: url("../images/mor1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 2270px;
+        left: 1430px;
+        box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+        overflow: hidden;
+        }
+  /*/////////////////////////////////////////////////////////*/
+  .v6_46 {
+    /*caja grande4*/
+    width: 100%;
+    height: 787px;
+    background: rgba(18,149,111,1);
+    opacity: 1;
+    position: absolute;
+    top: 1643px;
+    left: 32px;
+    border: 0px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+  .
+  
+  /*/////////////////////////////////////////////////////////*/
+  
+  
+  .v7_74 {
+    /*img caja grande*/
+    width: 465px;
+    height: 407px;
+    background: url("../images/v7_74.p");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3080px;
+    left: 730px;
+    box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+    overflow: hidden;
+  }
+  
+  /*/////////////////////////////////////////////////////////*/
+  .v7_82 {
+    /*caja grande 6*/
+    width: 100%;
+    height: 368px;
+    background: rgba(9,82,55,1);
+    opacity: 1;
+    position: absolute;
+    top: 2688px;
+    left: 22px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v7_100 {
+    /*caja grande 6letra corre*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2860px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_101 {
+    /*ciudad*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2918px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_102 {
+    /*numero*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2958px;
+    left: 195px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_86 {
+    /*encuntranos*/
+    width: 204px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2790px;
+    left: 1290px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_92 {
+    /*historia*/
+    width: 89px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2814px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_93 {
+    /*terminis y cond*/
+    width: 276px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2862px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_94 {
+    /*politica de privacidad*/
+    width: 255px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2909px;
+    left: 740px;
+    font-family: Montserratmedium;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v7_88 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/icx.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2850px;
+    left: 1310px;
+  }
+  .v7_89 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/icf.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 2850px;
+    left: 1360px;
+  }
+  .v7_90 {
+    /*caja grande 6icono*/
+    width: 41px;
+    height: 41px;
+    background-image: url("../images/ici.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 2850px;
+    left: 1400px;
+  }
+  
+  .v7_84 {
+    /*caja grande 6iconotata*/
+    width: 137px;
+    height: 135px;
+    background: url("../images/v7_84.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2700px;
+    left: 210px;
+    overflow: hidden;
+  }
+  /*/////////////////////////////////////////////////////////*/
+  .v20_29 .v7_84_1{
+    width: 144px;
+    height: 143px;
+    background: url("../images/v7_84.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    overflow: hidden;
+  
+  }
+  /*/////////////////////////////////////////////////////////*/
+  header {
+    
+    position: absolute; 
+    top: 70px; 
+    left: 500px; 
+    
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 120px;
+  }
+  
+  nav a {
+    color: #ffffff; 
+    font-family: Montserratsemibold;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32.91px;
+  }
+  
+  nav a:hover {
+    color:#095237;
+    ; 
+  }
+   /*/////////////////////////////////////////////////////////*/
+
+.imgV_1{
+   width: 587px;
+   height: 568px;
+   background: url("../images/imgV1.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   opacity: 1;
+   position: absolute;
+   top: 254px;
+   left: 0px;
+   box-shadow: 1px 15px 21px rgba(0, 0, 0, 0.5600000023841858);
+   overflow: hidden;
+}
+.letrasV_1{
+    width: 611px;
+    height: 399px;
+    color:#FFFFFF;
+    position: absolute;
+    top: 285px;
+    left: 876px;
+    font-family: Montserratmedium;
+    font-weight: 600;
+    font-size: 30px;
+    
+    opacity: 1;
+    text-align: justified;
+}
+.letrasV_2{
+    width: 412px;
+    height: 70px;
+    color: rgba(245,245,245,1);
+    position: absolute;
+    top: 166px;
+    left: 1010px;
+    font-family: Montserratbold;
+    font-weight: 700;
+    font-size: 80px;
+    
+    opacity: 1;
+    text-align: left;
+}
+    /*/////////////////////////////////////////////////////////*/
+
+  
